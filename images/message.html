@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <style>
+      .mailbox {
+        background-color: #f5f5f5;
+        width: 250px;
+        margin: 18px auto;
+        padding: 0 16px 24px;
+        border-top: 3px solid #6f42c1;
+        border-radius: 4px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+      .mailbox h3,
+      .mailbox h2 {
+        text-align: center;
+        font-weight: 500;
+      }
+      .text {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .details {
+        margin: 12px auto;
+        text-align: center;
+        width: 240px;
+        font-size: 14px;
+      }
+      img {
+        width: 48px;
+        height: 48px;
+      }
+      .copy {
+        text-align: center;
+        margin: 12px auto;
+        width: 240px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hi {$fname}{$lname},</p>
+    <p>Greetings from the EaseBank!</p>
+    <p><b>Congratulations your account has been verified successfully!</b></p>
+    <div class="mailbox">
+      <h2>Let's get started, {$fname}</h2>
+      <p class="text">
+        Welcome to EaseBank. Your new account comes with access of all features
+        and services.
+      </p>
+      <h3>Login Credentials</h3>
+      Account Number : {$acc_no} <br />Password : {$pwd}
+    </div>
+    <p class="details">
+      This email was sent to {$email} because you recently signed into your
+      EaseBank Account
+    </p>
+    <center><img src="" alt="" /></center>
+    <p class="copy">&COPY;2024 EaseBank</p>
+  </body>
+</html>
