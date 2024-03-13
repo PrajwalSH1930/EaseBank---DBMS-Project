@@ -16,7 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EaseBank &mdash; Dashboard</title>
     <link rel="shortcut icon" href="../images/xing-logo-2447.png" type="image/x-icon">
-    <script src="../plugins/canvasjs.min.js"></script>
+<!--     <script src="../plugins/canvasjs.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
